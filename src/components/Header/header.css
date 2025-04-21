@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--secondary-color);
+    background-color: transparent;
     position: fixed;
     top: 0;
     left: 0;
@@ -21,6 +21,7 @@
 
 .nav-logo-img {
     width: 150px;
+    filter: brightness(0) saturate(100%) invert(44%) sepia(93%) saturate(2853%) hue-rotate(-7deg) brightness(104%) contrast(102%);
 }
 
 .nav-menu {

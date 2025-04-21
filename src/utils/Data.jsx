@@ -28,23 +28,23 @@ export const navLinks = ["home", "about", "menu", "gallery", "testimonials"];
 export const homeSlide = [
   {
     img: slideImg1,
-    title: "Your Favorite <span> Food Gets Even </span> Better",
+    title: "Craving <span> Flavor ?<br /> Dive Into </span> Deliciousness",
     description:
-      "There are many variations of passages orem psum available but the majority have suffered alteration readable content looking page in some form by injected humour.",
+      "Satisfy your taste buds with bold bites and unforgettable flavors.",
   },
 
   {
     img: slideImg2,
-    title: "Your Favorite <span> Food Gets Even </span> Better",
+    title: "Every <span> Bite Brings </span> <br /> Pure Joy",
     description:
-      "There are many variations of passages orem psum available but the majority have suffered alteration readable content looking page in some form by injected humour.",
+      "Turn every mealtime into a moment of happiness.",
   },
 
   {
     img: slideImg3,
-    title: "Your Favorite <span> Food Gets Even </span> Better",
+    title: "Taste <span> Magic Like </span> <br />Never Before",
     description:
-      "There are many variations of passages orem psum available but the majority have suffered alteration readable content looking page in some form by injected humour.",
+      "Experience a sprinkle of culinary wonder in every bite.",
   },
 ];
 {
