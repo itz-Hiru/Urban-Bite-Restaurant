@@ -1,21 +1,21 @@
 /* Google Fonts (Fleur De Leah & Righteous) */
-@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Poppins&display=swap');
 
 /* Variables */
 :root {
     /* Colors */
     --hue: 271;
-    --primary-color: hsl(37, 89%, 64%);
-    --secondary-color: hsl(14, 100%, 58%);
+    --primary-color: hsl(42, 65%, 60%);
+    --secondary-color: hsl(12, 85%, 55%);
     --title-color: hsl(var(--hue), 4%, 26%);
     --text-color: hsl(var(--hue), 4%, 38%);
     --body-color: hsl(var(--hue), 4%, 99%);
-    --container-color: hsl(var(--hue), 4%, 26%);
+    --container-color: hsla(37, 89%, 64%, .25);
     --border-color: hsl(var(--hue), 4%, 91%);
     --white-color: hsl(var(--hue), 4%, 100%);
 
     /* Font family */
-    --primary-font: "Righteous", sans-serif;
+    --primary-font: "Poppins", sans-serif;
     --secondary-font: "Fleur De Leah", cursive;
 
     /* Font sizes */
@@ -91,6 +91,11 @@ img {
     max-width: 1230px;
     margin-inline: auto;
     padding-inline: 1.25rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
 }
 
 /* Reusable CSS Classes */
