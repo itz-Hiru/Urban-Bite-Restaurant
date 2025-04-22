@@ -5,12 +5,12 @@
 :root {
     /* Colors */
     --hue: 271;
-    --primary-color: hsl(42, 65%, 60%);
-    --secondary-color: hsl(12, 85%, 55%);
+    --primary-color: hsl(35, 100%, 50%);
+    --secondary-color: hsl(355, 90%, 60%);
     --title-color: hsl(var(--hue), 4%, 26%);
     --text-color: hsl(var(--hue), 4%, 38%);
     --body-color: hsl(var(--hue), 4%, 99%);
-    --container-color: hsla(37, 89%, 64%, .25);
+    --container-color: hsla(35, 100%, 50%, .2);
     --border-color: hsl(var(--hue), 4%, 91%);
     --white-color: hsl(var(--hue), 4%, 100%);
 

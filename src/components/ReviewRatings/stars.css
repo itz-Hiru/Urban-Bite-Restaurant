@@ -1,0 +1,9 @@
+.star-wrapper {
+    display: flex;
+    column-gap: .25rem;
+}
+
+.menu-star {
+    color: var(--primary-color);
+    display: inline-flex;
+}

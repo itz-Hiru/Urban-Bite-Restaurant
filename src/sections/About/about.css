@@ -13,7 +13,7 @@
 }
 
 .about-img:last-child {
-    margin-top: 16rem;
+    margin-top: 6rem;
 }
 
 .about-shape {
@@ -85,8 +85,20 @@
 
 .about-item {
     background-color: var(--container-color);
-    padding: 1rem;
-    border-radius: 10px;
+    padding: 1rem .5rem;
+    border-radius: 3rem 0 3rem 0;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: .75rem;
+}
+
+.about-data-shape {
+    background-color: var(--white-color);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
 }
 
 .about-data-img {
@@ -94,12 +106,10 @@
 }
 
 .about-title {
-    font-size: 17px;
-    font-weight: 500;
+    font-size: var(--normal-font-size);
+    margin-bottom: .25rem;
 }
 
 .about-data-description {
-    font-size: 14px;
-    font-weight: 300;
-    margin-top: .8rem;
+    line-height: 1.5;
 }

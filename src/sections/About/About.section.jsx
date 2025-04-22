@@ -53,13 +53,9 @@ const About = () => {
                 <img src={DataImage1} alt="" className="about-data-img" />
               </div>
               <div>
-                <h3 className="about-title">
-                  Uncompromising Quality, Exceptional Taste
-                </h3>
+                <h3 className="about-title">Exceptional Taste</h3>
                 <p className="about-data-description">
-                  At Urban Bite, we’ve perfected the art of crafting dishes with
-                  the freshest ingredients, bringing you a flavorful experience
-                  like no other.
+                  It is a long established fact by layout
                 </p>
               </div>
             </div>
@@ -68,13 +64,9 @@ const About = () => {
                 <img src={DataImage2} alt="" className="about-data-img" />
               </div>
               <div>
-                <h3 className="about-title">
-                  Irresistibly Delicious, Every Bite
-                </h3>
+                <h3 className="about-title">Irresistibly Delicious</h3>
                 <p className="about-data-description">
-                  At Urban Bite, we serve more than just food—we serve a
-                  satisfying journey of flavors that leaves you craving for
-                  more, made with fresh ingredients and a dash of passion.
+                  It is a long established fact by layout
                 </p>
               </div>
             </div>
