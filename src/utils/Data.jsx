@@ -22,6 +22,9 @@ import menuImg5 from "../assets/menu/menu-5.jpg";
 import menuImg6 from "../assets/menu/menu-6.jpg";
 import menuImg7 from "../assets/menu/menu-7.jpg";
 import menuImg8 from "../assets/menu/menu-8.jpg";
+import { IoFastFoodSharp } from "react-icons/io5";
+import { GiChefToque, GiTakeMyMoney } from "react-icons/gi";
+import { MdOutlineMenuBook } from "react-icons/md";
 
 export const navLinks = ["home", "about", "menu", "gallery", "testimonials"];
 
@@ -47,43 +50,41 @@ export const homeSlide = [
       "Experience a sprinkle of culinary wonder in every bite.",
   },
 ];
-{
-  /*
+
 export const featureItem = [
+
   {
     id: 1,
-    img: featureImg1,
-    title: "Fresh Testy Meals",
+    icon: <IoFastFoodSharp />,
+    title: "Irresistibly Fresh. Undeniably Delicious.",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis excepturi words.",
+      "At Urban Bite, every dish is crafted with the freshest ingredients and boldest flavors. From sizzling starters to hearty mains, our meals are made to satisfy your cravings and awaken your taste buds. Get ready for a dining experience that's vibrant, tasty, and made with love—just the way it should be.",
   },
 
   {
     id: 2,
-    img: featureImg2,
-    title: "Experienced Chefs",
+    icon: <GiChefToque />,
+    title: "Passion-Powered, Expert-Perfected",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis excepturi words.",
+      "At Urban Bite, every meal is a masterpiece—handcrafted by our experienced chef with a passion for perfection. We blend farm-fresh ingredients with years of culinary expertise to serve you dishes that are not just fresh and tasty, but unforgettable. Come hungry, leave happy.",
   },
 
   {
     id: 3,
-    img: featureImg3,
-    title: "Affordable Price",
+    icon: <GiTakeMyMoney />,
+    title: "Gourmet Taste. Everyday Price.",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis excepturi words.",
+      "At Urban Bite, we believe everyone deserves amazing food without the premium price tag. That’s why our experienced chef brings you fresh, flavor-packed meals made with quality ingredients—at prices that keep your wallet as full as your belly. Delicious dining, made affordable.",
   },
 
   {
     id: 4,
-    img: featureImg4,
-    title: "Daily Fresh Menu",
+    icon: <MdOutlineMenuBook />,
+    title: "Urban Bites of the Day",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis excepturi words.",
+      "At Urban Bite, our experienced chef curates a daily fresh menu filled with vibrant flavors and seasonal ingredients. Whether you're craving something comforting or bold, every dish is made fresh—every single day. Quality food, affordable prices, and a new reason to come back tomorrow.",
   },
 ];
-*/
-}
 
 export const gallery = [
   galleryImg1,
