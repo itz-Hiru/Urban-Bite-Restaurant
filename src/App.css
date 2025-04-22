@@ -118,8 +118,8 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     background-color: var(--secondary-color);
     border-radius: 50%;
     z-index: -10;
