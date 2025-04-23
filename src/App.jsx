@@ -6,6 +6,7 @@ import Header from "./components/Header/Header.component";
 
 import About from "./sections/About/About.section";
 import Features from "./sections/Features/Features.section";
+import Gallery from "./sections/Gallery/Gallery.section";
 import Home from "./sections/Home/Home.section";
 import Menu from "./sections/Menu/Menu.section";
 import Reservation from "./sections/Reservation/Reservation.section";
@@ -20,6 +21,7 @@ const App = () => {
       <Features />
       <About />
       <Menu />
+      <Gallery />
       <Testimonials />
       <Footer />
     </div>

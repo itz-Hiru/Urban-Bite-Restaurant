@@ -142,3 +142,7 @@ img {
 .section {
     padding-block: 6rem;
 }
+
+.section:not(:is(.about, .menu)) .section-header {
+    text-align: center;
+}

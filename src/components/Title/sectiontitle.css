@@ -31,7 +31,8 @@
 .section-title {
     font-size: var(--h3-font-size);
     font-weight: 600;
-    margin: 1rem 0 3rem;
+    max-width: 550px;
+    margin: 1rem auto 3rem;
 }
 
 .section-title span {
