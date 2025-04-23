@@ -97,31 +97,28 @@ export const testimonialItem = [
     img: testimonialImg1,
     name: "Niesha Phips",
     description:
-      "There are many variations passage available the majority have suffered of the alteration in some form by injected humour or randomised words which look even slightly believable.",
+      "The flavors danced on my tongue like a well-rehearsed symphony—each bite better than the last. Easily my new favorite spot!",
     stars: 4.5,
   },
-
   {
     img: testimonialImg2,
     name: "Daniel Porter",
     description:
-      "There are many variations passage available the majority have suffered of the alteration in some form by injected humour or randomised words which look even slightly believable.",
+      "From the warm welcome to the last crumb, everything was perfection. This place doesn’t just serve food—it serves memories.",
     stars: 5,
   },
-
   {
     img: testimonialImg3,
     name: "Ebony Swihart",
     description:
-      "There are many variations passage available the majority have suffered of the alteration in some form by injected humour or randomised words which look even slightly believable.",
+      "Every dish felt like a little piece of heaven. The ambiance, the service, the taste—pure bliss on a plate!",
     stars: 4.8,
   },
-
   {
     img: testimonialImg4,
     name: "Loreta Jones",
     description:
-      "There are many variations passage available the majority have suffered of the alteration in some form by injected humour or randomised words which look even slightly believable.",
+      "I came for the food and stayed for the experience. It's not just a meal, it's a delicious escape from the ordinary.",
     stars: 4.4,
   },
 ];
