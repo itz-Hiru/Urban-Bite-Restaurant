@@ -1,18 +1,36 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { CgMenuLeft } from "react-icons/cg";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import Logo from "../../assets/logo.png";
 import { navLinks } from "../../utils/Data";
 import ScrollLinks from "../Links/ScrollLinks.component";
+import { animateScroll } from "react-scroll";
+import { Link } from "react-scroll";
 import "./header.css";
 
 const Header = () => {
+  const [scrollNav, setScrollNav] = useState(false);
+  const changeNav = () => {
+    if (window.scrollY >= 80) {
+      setScrollNav(true);
+    } else {
+      setScrollNav(false);
+    }
+  };
+
+  const scrollTop = () => {
+    animateScroll.scrollToTop();
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeNav);
+  });
   return (
-    <header className="header">
+    <header className={`${scrollNav ? "scroll-header" : ""} header`}>
       <nav className="nav container">
-        <a href="/" className="nav-logo">
+        <Link to="/" onClick={scrollTop} className="nav-logo">
           <img src={Logo} alt="logo" className="nav-logo-img" />
-        </a>
+        </Link>
         <div className="nav-menu">
           <ul className="nav-list">
             {navLinks.map((navLink, index) => {
@@ -32,6 +50,7 @@ const Header = () => {
           <ScrollLinks
             to="reservation"
             name="Book Now"
+            extraProps={{ spy: true }}
             className="button"
             icon={<FaCircleArrowRight className="button-icon" />}
           />

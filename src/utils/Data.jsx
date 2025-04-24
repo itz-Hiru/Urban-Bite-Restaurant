@@ -213,4 +213,4 @@ export const menu = [
   },
 ];
 
-export const footerLinks = ["about", "menu", "testimonials"];
+export const footerLinks = ["about", "menu", "gallery", "testimonials"];

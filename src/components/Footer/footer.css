@@ -92,7 +92,6 @@
 }
 
 .footer-links {
-    margin-top: 3rem;
     row-gap: 1.25rem;
 }
 
@@ -100,6 +99,7 @@
     text-transform: capitalize;
     transition: color .5s;
     font-size: .9rem;
+    cursor: pointer;
 }
 
 .footer-link:hover {

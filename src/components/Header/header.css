@@ -19,6 +19,10 @@
     height: 5rem;
 }
 
+.nav-logo {
+    cursor: pointer;
+}
+
 .nav-logo-img {
     width: 150px;
     filter: brightness(0) saturate(100%) invert(44%) sepia(93%) saturate(2853%) hue-rotate(-7deg) brightness(104%) contrast(102%);
@@ -43,6 +47,7 @@
     text-transform: capitalize;
     position: relative;
     transition: color .5s;
+    cursor: pointer;
 }
 
 .nav-link::before {
@@ -73,4 +78,14 @@
 .nav-toggler {
     font-size: 1.75rem;
     display: none;
+}
+
+/* Scroll Header */ 
+.scroll-header {
+    background-color: var(--body-color);
+    box-shadow: 0 8px 16px hsla(var(--hue), 90%, 8%, .1);
+}
+
+.scroll-header :is(.nav-link, .nav-toggler) {
+    color: var(--title-color);
 }
