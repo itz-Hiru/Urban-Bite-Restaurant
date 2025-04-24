@@ -6,7 +6,7 @@ import { RiAddLargeLine } from "react-icons/ri";
 
 const Gallery = () => {
   return (
-    <section className="gallery section">
+    <section className="gallery section" id="gallery">
       <SectionTitle
         subtitle="Moments Captured in Flavor"
         title={

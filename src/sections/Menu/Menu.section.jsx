@@ -21,7 +21,7 @@ const Menu = () => {
     setMenuItems(navMenuItems);
   };
   return (
-    <section className="menu section">
+    <section className="menu section" id="menu">
       <div className="container">
         <div className="menu-header">
           <SectionTitle

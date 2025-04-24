@@ -10,7 +10,7 @@ import { FaCircleArrowRight } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <section className="about section">
+    <section className="about section" id="about">
       <div className="about-container container grid">
         <div className="about-shape grid">
           <img src={AoutImage1} alt="" className="about-img" />

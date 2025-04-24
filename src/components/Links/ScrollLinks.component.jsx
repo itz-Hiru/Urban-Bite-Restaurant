@@ -7,8 +7,10 @@ const ScrollLinks = ({ to, name, className, icon, extraProps = {} }) => {
       to={to}
       smooth={true}
       duration={500}
-      {...extraProps}
+      spy={true}
+      activeClass="active"
       className={className}
+      {...extraProps}
     >
       {name}
       {icon && icon}

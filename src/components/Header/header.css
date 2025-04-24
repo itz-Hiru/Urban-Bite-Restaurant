@@ -63,11 +63,13 @@
 }
 
 /* Active link */
-.nav-link:hover {
+.nav-link:hover,
+.nav-link.active {
     color: var(--primary-color);
 }
 
-.nav-link:hover::before {
+.nav-link:hover::before,
+.nav-link.active::before {
     width: 15px;
 }
 
@@ -86,6 +88,6 @@
     box-shadow: 0 8px 16px hsla(var(--hue), 90%, 8%, .1);
 }
 
-.scroll-header :is(.nav-link, .nav-toggler) {
+.scroll-header :is(.nav-link:not(.active), .nav-toggler) {
     color: var(--title-color);
 }

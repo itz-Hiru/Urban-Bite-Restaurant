@@ -11,7 +11,7 @@ import "./testimonials.css";
 
 const Testimonials = () => {
   return (
-    <section className="testimonials section">
+    <section className="testimonials section" id="testimonials">
       <SectionTitle
         subtitle="Client Love"
         title={

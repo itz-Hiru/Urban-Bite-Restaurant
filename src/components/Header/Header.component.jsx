@@ -40,6 +40,7 @@ const Header = () => {
                     to={navLink}
                     name={navLink}
                     className="nav-link"
+                    activeClass="active"
                   />
                 </li>
               );
