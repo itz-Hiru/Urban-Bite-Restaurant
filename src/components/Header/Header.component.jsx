@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { CgMenuLeft } from "react-icons/cg";
 import { FaCircleArrowRight } from "react-icons/fa6";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Logo.png";
 import { navLinks } from "../../utils/Data";
 import ScrollLinks from "../Links/ScrollLinks.component";
 import { animateScroll } from "react-scroll";
